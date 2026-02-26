@@ -1,0 +1,81 @@
+Here’s a clear, friendly **README** you can use for your **[SAPUI5‑MASTER‑DETAIL‑APP GitHub repository](https://github.com/codewith-aman88/SAPUI5-MASTER-DETAIL-APP.git)** project. You can paste this right into a new `README.md` in the repo.
+
+---
+
+# SAPUI5 Master-Detail App
+
+A simple **SAPUI5 Master-Detail application** built with the SAPUI5 framework. This app follows the typical UI pattern where a list of items (Master) is displayed on one side, and selecting an item shows its details on the other side.([experience.sap.com][1])
+
+## Overview
+
+This project demonstrates a basic **Master-Detail pattern** using SAPUI5. The master panel shows a list of items, and clicking an item loads its details in the detail panel. This pattern is common in enterprise apps where a user browses and selects records to see more information.([SAP Help Portal][2])
+
+## Features
+
+* Master view with a list of records
+* Detail view showing information for the selected item
+* SAPUI5 standard controls and routing
+* Clean, intuitive navigation across views
+
+## Getting Started
+
+### Prerequisites
+
+You’ll need the following before running the app:
+
+* Node.js installed
+* UI5 tooling (`@ui5/cli`) installed globally:
+
+```sh
+npm install --global @ui5/cli
+```
+
+### Install Dependencies
+
+Clone the repository and install packages:
+
+```sh
+git clone https://github.com/codewith-aman88/SAPUI5-MASTER-DETAIL-APP.git
+cd SAPUI5-MASTER-DETAIL-APP
+npm install
+```
+
+### Run the App Locally
+
+Start a local UI5 server:
+
+```sh
+ui5 serve --open index.html
+```
+
+This will launch the app in your default browser.
+
+## Project Structure
+
+Here’s a quick look at what’s inside:
+
+```
+📦webapp
+ ┣ 📂view
+ ┣ 📂controller
+ ┣ 📄index.html
+ ┗ 📄manifest.json
+📄package.json
+```
+
+* **webapp/view** – XML views for the Master and Detail UI
+* **webapp/controller** – Controllers to manage view logic
+* **index.html** – Entry point for the app
+* **manifest.json** – App descriptor (routing, models, etc.)
+
+## How it Works
+
+The app uses a **SplitApp** pattern. The left side (Master) lists items, and the right side (Detail) shows details when an item is selected. This structure makes it easy for users to browse and inspect records quickly.([experience.sap.com][1])
+
+## Contributing
+
+Feel free to improve it! Suggestions, fixes, and new features are welcome.
+
+## License
+
+This project is open and free to use.
