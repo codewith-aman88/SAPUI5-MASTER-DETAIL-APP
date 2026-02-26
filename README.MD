@@ -1,11 +1,11 @@
 
 # SAPUI5 Master-Detail App
 
-A simple **SAPUI5 Master-Detail application** built with the SAPUI5 framework. This app follows the typical UI pattern where a list of items (Master) is displayed on one side, and selecting an item shows its details on the other side.([experience.sap.com][1])
+A simple **SAPUI5 Master-Detail application** built with the SAPUI5 framework. This app follows the typical UI pattern where a list of items (Master) is displayed on one side, and selecting an item shows its details on the other side.
 
 ## Overview
 
-This project demonstrates a basic **Master-Detail pattern** using SAPUI5. The master panel shows a list of items, and clicking an item loads its details in the detail panel. This pattern is common in enterprise apps where a user browses and selects records to see more information.([SAP Help Portal][2])
+This project demonstrates a basic **Master-Detail pattern** using SAPUI5. The master panel shows a list of items, and clicking an item loads its details in the detail panel. This pattern is common in enterprise apps where a user browses and selects records to see more information.
 
 ## Features
 
@@ -67,7 +67,7 @@ Here’s a quick look at what’s inside:
 
 ## How it Works
 
-The app uses a **SplitApp** pattern. The left side (Master) lists items, and the right side (Detail) shows details when an item is selected. This structure makes it easy for users to browse and inspect records quickly.([experience.sap.com][1])
+The app uses a **SplitApp** pattern. The left side (Master) lists items, and the right side (Detail) shows details when an item is selected. This structure makes it easy for users to browse and inspect records quickly.
 
 ## Contributing
 
