@@ -1,6 +1,3 @@
-Here’s a clear, friendly **README** you can use for your **[SAPUI5‑MASTER‑DETAIL‑APP GitHub repository](https://github.com/codewith-aman88/SAPUI5-MASTER-DETAIL-APP.git)** project. You can paste this right into a new `README.md` in the repo.
-
----
 
 # SAPUI5 Master-Detail App
 
