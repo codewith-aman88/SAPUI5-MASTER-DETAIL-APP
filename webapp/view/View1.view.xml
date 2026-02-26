@@ -1,0 +1,64 @@
+<mvc:View
+    controllerName="customer.com.ui5app.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:f="sap.f">
+
+    <f:DynamicPage id="_IDGenDynamicPage">
+
+        <f:title>
+            <f:DynamicPageTitle id="_IDGenDynamicPageTitle">
+                <f:heading>
+                    <Title id="_IDGenTitle" text="{i18n>title}" />
+                </f:heading>
+
+                <f:actions>
+                    <Button id="_IDGenButton"
+                        text="{i18n>refresh}"
+                        icon="sap-icon://refresh"
+                        press="onRefresh"/>
+                </f:actions>
+            </f:DynamicPageTitle>
+        </f:title>
+
+        <f:content>
+            <Table
+                id="customerTable"
+                items="{/Customers}"
+                mode="SingleSelectMaster"
+                itemPress="onItemPress">
+
+                <headerToolbar>
+                    <Toolbar id="_IDGenToolbar1">
+                        <Title id="_IDGenTitle1" text="{i18n>customerList}" level="H2"/>
+                        <ToolbarSpacer id="_IDGenToolbarSpacer"/>
+                        <SearchField id="SearchField"
+                            width="250px"
+                            liveChange="onSearch"/>
+                    </Toolbar>
+                </headerToolbar>
+
+                <columns>
+                    <Column id="_IDGenColumn"><Text id="_IDGenText" text="First Name"/></Column>
+                    <Column id="_IDGenColumn1"><Text id="_IDGenText1" text="Last Name"/></Column>
+                    <Column id="_IDGenColumn2"><Text id="_IDGenText2" text="Title"/></Column>
+                    <Column id="_IDGenColumn3"><Text id="_IDGenText3" text="City"/></Column>
+                </columns>
+
+                <items>
+                    <ColumnListItem id="_IDGenColumnListItem" type="Navigation" press="onItemPress">
+                        <cells>
+                            <Text id="_IDGenText4" text="{FirstName}"/>
+                            <Text id="_IDGenText5" text="{LastName}"/>
+                            <Text id="_IDGenText6" text="{Title}"/>
+                            <Text id="_IDGenText7" text="{City}"/>
+                        </cells>
+                    </ColumnListItem>
+                </items>
+
+            </Table>
+        </f:content>
+
+    </f:DynamicPage>
+
+</mvc:View>
