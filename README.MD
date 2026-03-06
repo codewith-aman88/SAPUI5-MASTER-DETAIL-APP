@@ -37,28 +37,6 @@ cd SAPUI5-MASTER-DETAIL-APP
 npm install
 ```
 
-### Run the App Locally
-
-Start a local UI5 server:
-
-```sh
-ui5 serve --open index.html
-```
-
-This will launch the app in your default browser.
-
-## Project Structure
-
-Here’s a quick look at what’s inside:
-
-```
-📦webapp
- ┣ 📂view
- ┣ 📂controller
- ┣ 📄index.html
- ┗ 📄manifest.json
-📄package.json
-```
 
 * **webapp/view** – XML views for the Master and Detail UI
 * **webapp/controller** – Controllers to manage view logic
